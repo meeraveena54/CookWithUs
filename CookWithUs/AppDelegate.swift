@@ -12,12 +12,12 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var appController: AppController?
+    var appController = AppController()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        appController?.firebaseConfiguration()
+        appController.firebaseConfiguration()
         //Test Commit
         // Override point for customization after application launch.
         return true
