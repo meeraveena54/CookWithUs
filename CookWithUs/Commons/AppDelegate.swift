@@ -14,12 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var appController = AppController()
 
+    func initWindow() {
+        window =  UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        appController.firebaseConfiguration()
-        //Test Commit
-        // Override point for customization after application launch.
+        initWindow()
+        appController.prepareForLaunch(window: window)
         return true
     }
 
