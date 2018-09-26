@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>261939488989-4f897fslt03mb37k3uksp3v893jbdtje.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.261939488989-4f897fslt03mb37k3uksp3v893jbdtje</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB7Yr3aA-HHoYEJGL-aZ2duU_Nc0dxUycc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>261939488989</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.meera.CookWithUs</string>
+	<key>PROJECT_ID</key>
+	<string>cookwithus-5791f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cookwithus-5791f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:261939488989:ios:3f26826db76db004</string>
+	<key>DATABASE_URL</key>
+	<string>https://cookwithus-5791f.firebaseio.com</string>
+</dict>
+</plist>
