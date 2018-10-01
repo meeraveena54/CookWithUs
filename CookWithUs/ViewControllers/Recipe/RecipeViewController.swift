@@ -17,6 +17,7 @@ class RecipeViewController: BaseViewController {
     
     @IBOutlet weak var recipeName: UILabel!
     
+    @IBOutlet weak var directionsTableView: UITableView!
     func setRecipeName(recipeName : UILabel){
         
         recipeName.text = recipe.recipeName
@@ -27,6 +28,8 @@ class RecipeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "IngredientCell", bundle: nil), forCellReuseIdentifier: "IngredientCell")
+        
+        directionsTableView.register(UINib(nibName: "DirectionsCell", bundle: nil), forCellReuseIdentifier: "DirectionsCell")
         setRecipeName(recipeName: recipeName)
     }
 
