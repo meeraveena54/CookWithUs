@@ -26,6 +26,12 @@ class HomeViewController: BaseViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func loadRecipe(_ sender: UIButton) {
+        let recipeViewController = RecipeViewController(nibName: "RecipeViewController", bundle: nil)
+        self.navigationController?.pushViewController(recipeViewController, animated: true)
+    
+    }
 
 
 }
