@@ -12,8 +12,14 @@ class HomeViewController: BaseViewController {
 
     @IBOutlet weak var button: UIButton!
     
+    var dbConnectionRef=DBConnection.ref
+    //var recipesDBRef=RecipesDB()
+    var recipeViewController=RecipeViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -28,11 +34,15 @@ class HomeViewController: BaseViewController {
     }
     
     @IBAction func loadRecipe(_ sender: UIButton) {
+        
         let recipeViewController = RecipeViewController(nibName: "RecipeViewController", bundle: nil)
+        //recipeViewController.transitioningDelegate=self as? UIViewControllerTransitioningDelegate
         self.navigationController?.pushViewController(recipeViewController, animated: true)
-    
+        
+       print ("Recipe View Loading")
     }
 
 
 }
+
 

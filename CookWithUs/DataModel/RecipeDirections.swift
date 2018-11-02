@@ -8,9 +8,7 @@
 
 import Foundation
 struct RecipeDirections{
-    var recipeId : Double
-    var stepNo: Int
+    var recipeId : String
+    var stepNo: String
     var description : String
-    
-   
 }

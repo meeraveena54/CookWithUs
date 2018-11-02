@@ -8,8 +8,8 @@
 
 import Foundation
 struct Ingredient{
-    var recipeId : Double
-    var itemNo: Int
+    var recipeId : String
+    var itemNo: String
     var item : String
     var qty : Double
     var unit : String
