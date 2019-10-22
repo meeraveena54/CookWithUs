@@ -6,16 +6,143 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CookWithUs/DBConnection/RecipesDB.swift"
+            timestampString = "562893099.857814"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getRecipeDetails(recipeId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CookWithUs/DBConnection/RecipeIngredientsDB.swift"
+            timestampString = "562893099.858561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "RecipeIngredientsDB"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CookWithUs.RecipeIngredientsDB.dbConnection.getter : CookWithUs.DBConnection"
+                  moduleName = "CookWithUs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meera/iCloud%20Drive%20(Archive)/Documents/Meera/Projects/CookWithUs/CookWithUs/DBConnection/RecipeIngredientsDB.swift"
+                  timestampString = "562019138.1265481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CookWithUs.RecipeIngredientsDB.dbConnection.setter : CookWithUs.DBConnection"
+                  moduleName = "CookWithUs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meera/iCloud%20Drive%20(Archive)/Documents/Meera/Projects/CookWithUs/CookWithUs/DBConnection/RecipeIngredientsDB.swift"
+                  timestampString = "562019138.1290621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CookWithUs.RecipeIngredientsDB.init() -&gt; CookWithUs.RecipeIngredientsDB"
+                  moduleName = "CookWithUs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meera/iCloud%20Drive%20(Archive)/Documents/Meera/Projects/CookWithUs/CookWithUs/DBConnection/RecipeIngredientsDB.swift"
+                  timestampString = "562019138.131215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CookWithUs/ViewControllers/Recipe/RecipeViewController.swift"
+            timestampString = "562893099.859288"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "loadRecipeBasicDetails(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CookWithUs/DBConnection/RecipeIngredientsDB.swift"
+            timestampString = "562893099.8594691"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getIngredientCount(recipeId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CookWithUs/ViewControllers/Recipe/RecipeViewController.swift"
+            timestampString = "562893099.860476"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "setIngredientCount(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CookWithUs/Commons/AppController.swift"
-            timestampString = "559631522.383262"
+            filePath = "CookWithUs/DBConnection/RecipeIngredientsDB.swift"
+            timestampString = "562893099.8610131"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "loadHomeScreen()"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getRecipeIngredients(recipeId:index:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

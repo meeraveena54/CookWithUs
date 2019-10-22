@@ -9,27 +9,49 @@
 import UIKit
 
 class RecipeViewController: BaseViewController {
-
+    
+    var recipesDB=RecipesDB()
+    var recipeViewModel=RecipeViewModel()
+    var recipeIngredientsDB=RecipeIngredientsDB()
+    var recipe : Recipe = Recipe (recipeId: "Recipe_1", recipeName: "Lime Juice", servings: 2, totalTime: "20 minutes", recipeCover:UIImage(named:"book.jpg")!,ingredientCount:3)
+    
+    var ingredientCount:Int!
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var recipeName: UILabel!
+    
+    @IBOutlet weak var directionsTableView: UITableView!
+   
+    
     override func viewDidLoad() {
+        
+        print ("Recipe View Did Load")
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        tableView.register(UINib(nibName: "IngredientCell", bundle: nil), forCellReuseIdentifier: "IngredientCell")
+        
+        directionsTableView.register(UINib(nibName: "DirectionsCell", bundle: nil), forCellReuseIdentifier: "DirectionsCell")
+        recipesDB.getRecipeDetails(recipeId: "Recipe_1")
+        recipesDB.delegate = self
+        
+       // recipeIngredientsDB.getRecipeIngredients(recipeId:"Recipe_1")
+        //recipeIngredientsDB.getIngredient(at:0)
+        //setRecipeName(recipeName: recipeName)
+       // setRecipeBasicDetails(recipeId: "Recipe_1")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func setIngredientCount(_ recipeId:String)->Int{
+        return ingredientCount ?? 3
     }
-    */
-
 }
+extension RecipeViewController:RecipeDBDelegate{
+    func loadRecipeBasicDetails(_ recipeBasicDetails: Recipe) {
+        recipeName.text = recipeBasicDetails.recipeName
+        ingredientCount=recipeBasicDetails.ingredientCount
+    }
+    
+}
+
